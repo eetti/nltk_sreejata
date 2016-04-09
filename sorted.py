@@ -11,7 +11,7 @@ from collections import Counter
 documents = []
 dict_ ={}
  
-read_file = "/Users/etti/Desktop/Sreejata/cnn_text.txt"
+read_file = "~/Sreejata/cnn_text.txt"
 
 with open(read_file,"r") as r:
 	# for line in r:
@@ -42,16 +42,15 @@ tfs = tfidf.fit_transform(stemmed)
 
 names = tfidf.get_feature_names()
 
-msg = "Number of words in the bag of words  : %d" % len(stemmed)
+msg = "Number of words in the bag of words  : %d" % len(documents)
 
 print msg
 print "_"*len(msg)
 print "Meaning full terms"
-print "_"*40
+print "_"*len(msg)
 
 for col in tfs.nonzero()[1]:
 	if names[col] not in dict_:
 		dict_[tfs[col]] = tfs[0,col]
 		print names[col],' - ',tfs[0,col]
 
-# print tfs
