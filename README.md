@@ -2,7 +2,8 @@
 ### Hosted by Sreejata Chatterjeee
 
 `Tf - IDF`
-`
+
+```
 #Result of the assignment
 
 Number of words in the bag of words  : 145
@@ -50,4 +51,4 @@ alaska  -  1.0
 virgin  -  0.0
 america  -  0.0
 [Finished in 1.0s]
-`
+```
