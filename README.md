@@ -10,7 +10,7 @@ No of words in document : 254
 ___________________________
 No of words after removing stopwords,digits and punctuations  : 145
 ___________________________________________________________________
-No of words after stemmin : 145
+No of words after stemming : 145
 ______________________
 Top 20 words with high frequencies
 __________________________________
