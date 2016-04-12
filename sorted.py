@@ -17,7 +17,7 @@ with open(read_file,"r") as r:
 	# for line in r:
 	filecontent = r.read()
 
-tokenizer = RegexpTokenizer(r'\w+')
+tokenizer = RegexpTokenizer(r'\w+')  #regex tokenize by word
 lowerCase = filecontent.lower()
 allwords = lowerCase
 words = tokenizer.tokenize(lowerCase) #tokenized_words
