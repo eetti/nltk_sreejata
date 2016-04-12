@@ -1,4 +1,4 @@
-# Lidsift Workshop
+# Leadsift Workshop
 ### Hosted by Sreejata Chatterjeee
 
 `Tf - IDF`
